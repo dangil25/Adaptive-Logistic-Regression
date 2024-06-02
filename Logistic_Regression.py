@@ -1,6 +1,6 @@
 import numpy as np
 from math import log
-
+#Currently set to classify images of digits
 #WARNING: This takes ~10 minutes to run fully as it optimizes alpha and n_iter
 #WARNING: Ignore overflow error if it occurs
 #input: category + d dimensions
