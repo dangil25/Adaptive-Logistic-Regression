@@ -6,8 +6,8 @@ from math import log
 #input: category + d dimensions
 #d = dimension number, num = number of inputs, a = learning rate, n_iters = number of iterations
 
-d = 1024
-num = 1024
+d = 64
+num = 64
 
 
 #train split
