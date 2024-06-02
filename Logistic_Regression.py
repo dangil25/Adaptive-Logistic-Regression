@@ -4,7 +4,7 @@ from math import log
 #WARNING: This takes ~10 minutes to run fully as it optimizes alpha and n_iter
 #WARNING: Ignore overflow error if it occurs
 #input: category + d dimensions
-#d = dimension number, num = number of inputs
+#d = dimension number, num = number of inputs, a = learning rate, n_iters = number of iterations
 
 d = 1024
 num = 1024
@@ -128,7 +128,7 @@ nY_Train = catsplit(y_train, cats)
 nY_Test = catsplit(y_validate, cats)
 nY_Final_Test = catsplit(y_final_test, cats)
 
-#potential values for alphas and n_iters
+#potential values for learning rate and n_iters
 alphas = [4, 1, 0.25, 0.0625]
 n_iters = [30, 90, 270]
 maxcombo = [0, 0]
