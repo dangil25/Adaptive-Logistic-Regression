@@ -1,7 +1,7 @@
 import numpy as np
 from math import log
 #Currently set to classify images of digits
-#WARNING: This takes ~10 minutes to run fully as it optimizes alpha and n_iter
+#WARNING: For 1024x1024 this takes ~10 minutes to run fully as it optimizes alpha and n_iter
 #WARNING: Ignore overflow error if it occurs
 #input: category + d dimensions
 #d = dimension number, num = number of inputs, a = learning rate, n_iters = number of iterations
